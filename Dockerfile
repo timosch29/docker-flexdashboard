@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y -t unstable \
     libcurl4-gnutls-dev \
     libcairo2-dev/unstable \
     libssl-dev \
+    libxml2-dev \
     libxt-dev && \
     wget --no-verbose  https://download3.rstudio.org/ubuntu-14.04/x86_64/shiny-server-1.5.12.933-amd64.deb -O "version.txt" && \
     VERSION=$(cat version.txt)  && \
